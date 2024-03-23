@@ -1,0 +1,254 @@
+.ca-container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    /**animation: animate 30s infinite;**/
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+    background-image: url(./homepage_modellab_image.jpg);
+}
+
+
+body{
+    margin-bottom: -45vh;
+    padding: 0;
+}
+
+.outer{
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height: 100vh;
+}
+
+.details{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: (-50%, -50%);
+}
+
+html{
+    scroll-behavior: auto;
+    overflow-x: hidden;
+}
+
+#ca-tcimg{
+    height: 97vh;
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+
+.ca-l-l{
+    color: white;
+    height: 19px;
+    width: 19px;
+    border-radius: 50%;
+    margin-top: 32vh;
+    font-size: small;
+    filter: opacity(17.5%);
+}
+
+
+
+.ca-l-l:hover{
+    color: black;
+    background-color: black;
+
+}
+
+#ca-chng-green{
+    color: #169d6c;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 9vh;
+}
+
+#ca-align-right{
+    float: right;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#ca-align-left{
+    float: left;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-left: 15vh;
+    padding-top: 7vh;
+    font-size: larger;
+}
+
+#ca-video-video{
+
+    height: 45vh;
+    width: 90vh;
+    margin-right: 15vh;
+
+}
+
+#ca-vid-button{
+    background-color: #169d6c;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    /*height: 3vh;
+    width: 5vh;*/
+    padding: 1.5vh;
+    border-radius: 10%;
+
+}
+
+#ca-a{
+    text-decoration: none;
+}
+
+#ca-vid-button:hover{
+    background-color: white;
+    color: #169d6c;
+}
+
+#ca-hrule-a{
+    background-color: #169d6c;
+    height: 0.3vh;
+    width: 110vh;
+    transform: translateZ(-10);
+}
+
+
+
+#ca-text-div-main{  
+    font-family: 'Lexend Deca', sans-serif;
+    padding-right: 17vh;
+    padding-left: 17vh;
+    font-size: medium;
+    line-height: 5vh;
+    background-color: white !important;
+    padding-top: 7vh;
+    text-align: justify;
+}
+
+.ca-text-color-chng{
+    color: #169d6c;
+}
+
+#ca-border-box{
+    border: solid;
+    padding-right: 17vh;
+    padding-left: 17vh;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    border-color: blueviolet;
+    border-radius: 9px;
+    border-width: 0.553vh;
+    text-align: justify;
+}
+
+#ca-foot-contribution{
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+}
+
+
+
+#ca-make-change{
+    padding-top: 7vh;
+    background-color: white !important;
+}
+
+#model-labs-header{
+    
+    margin-top: 2vh;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 6vh;
+    margin-bottom: 28vh;
+    background-color: white !important;
+    
+}
+
+#ca-nav-ul{
+    list-style-type: none;
+}
+
+.ca-nav-li{
+    float: right;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    margin-top: 2.5vh;
+}
+
+.ca-nav-li:hover{
+    text-decoration: underline;
+    transition-delay: 100ms;
+}
+
+.ca-nav-link{
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    font-size: large;
+    
+}
+
+#ca-logo-main{
+    height: 7%;
+    width: 7%;
+    float: left;
+    margin-left: 1vw;
+    margin-top: -2vh;
+}
+
+#ca-sec-main{
+    margin-top: 35vh;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 10vh;
+    margin-bottom: 40vh;
+}
+
+#ca-change-color{
+    color: blueviolet;
+}
+
+#modellabs-footer{
+    background: black !important;
+    font-size: medium !important;
+    color: white !important;
+    height: 5vh;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+
+}
+
+.f {
+    display: flex;
+
+}
+.jc-b {
+    justify-content:space-between;
+}
+
+.jc-c{
+    justify-content:center;
+}
+.jc-sa{
+    justify-content: space-around;
+}
+*{
+    margin: 0;
+    height: auto;
+    width: auto;
+}
+
+.hs_l-s{
+    padding: 10px 10px;
+}
+
+#img-a-modellabs{
+    height: 75vh;
+    width: 115vh;
+}
+
+#ca-cont-id-b{
+    background-color: grey !important;
+    height: 10vh;
+}
